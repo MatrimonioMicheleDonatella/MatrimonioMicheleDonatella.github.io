@@ -1039,6 +1039,32 @@ form label {
   z-index: 99;
   animation: pulse 1s ease infinite;
 }
+
+.heart2 {
+  top: 4em;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  animation: pulse 1s ease infinite;
+}
+
+.heart2 i {
+  font-size: 150px;
+  background: #fff;
+  padding: 20px;
+  color: #F14E95;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  .heart2 {
+    
+  }
+}
+
+
 .heart i {
   font-size: 20px;
   background: #fff;
@@ -1825,6 +1851,27 @@ form label {
 .row-pb-sm {
   padding-bottom: 2em !important;
 }
+
+
+.round-image-minirin {
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+}
+
+@media (max-width: 900px) { /* Adjust the breakpoint as needed */
+  .round-image-minirin {
+      width: 80%;
+      height: 80%;
+  }
+
+
+
+
+}
+
+
+
 
 .fh5co-loader {
   position: fixed;
